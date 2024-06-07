@@ -1,0 +1,53 @@
+.navbar{
+    width: 100%;
+    margin: auto;
+    height: 70px;
+    background-color: black;
+    padding: 2px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar h1{
+    color: #ff7200;
+    font-size: 40px;
+    font-family: "Lilita One", sans-serif;
+    padding-left: 20px 50px;
+    float: left;
+    padding-top: 2px;
+}
+
+.menu{
+    width: 600px;
+    float: left;
+    height: 70px;
+}
+
+.menu ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul li{
+    list-style: none;
+    float: left;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.menu ul li a:hover{
+    color: #ff7200;
+}

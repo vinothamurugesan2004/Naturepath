@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75%),rgba(0,0,0,0.75%)), url(Images/explore3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50);
+    text-align: center;
+    color: black;
+}
+
+.content h2{
+    font-size: 30px;
+    font-family: "Merienda", cursive;
+    color: black;
+}
+
+.content p{
+    font-weight: 50px;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    font-family: "Righteous", sans-serif;
+}
+
+.btn{
+    margin: 0px auto 0;
+}
+
+
+
+.btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Bree Serif", serif;
+    font-style: italic;
+    color: black;
+    border: .5px solid black;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}
+
+.btn a span{
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ff7720;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.btn a:hover span{
+    width: 100%;
+}
+
+.btn a:hover{
+    color: black;
+}
